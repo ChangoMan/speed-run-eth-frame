@@ -11,7 +11,7 @@ const app = new Frog({
   browserLocation: 'https://speedrunethereum.com/',
 })
 
-const SITE_URL = 'https://speedrun-eth-frame.vercel.app'
+const SITE_URL = 'https://speedrun-frame.vercel.app'
 
 app.frame('/', (c) => {
   const { buttonValue } = c
