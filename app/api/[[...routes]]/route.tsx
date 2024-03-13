@@ -4,7 +4,7 @@ import { Button, Frog } from 'frog'
 import { handle } from 'frog/vercel'
 
 // Uncomment to use Edge Runtime.
-export const runtime = 'edge'
+// export const runtime = 'edge'
 
 export const app = new Frog({
   basePath: '/api',
@@ -63,7 +63,6 @@ app.frame('/', (c) => {
         <Button.Link href="https://speedrunethereum.com/challenge/state-channels">
           📺 State Channel App
         </Button.Link>,
-        <Button value="challenge-4">← Back</Button>,
         <Button value="challenge-6">Next →</Button>,
       ],
     })
@@ -76,7 +75,6 @@ app.frame('/', (c) => {
         <Button.Link href="https://speedrunethereum.com/challenge/minimum-viable-exchange">
           ⚖️ Build a DEX
         </Button.Link>,
-        <Button value="challenge-3">← Back</Button>,
         <Button value="challenge-5">Next →</Button>,
       ],
     })
@@ -89,7 +87,6 @@ app.frame('/', (c) => {
         <Button.Link href="https://speedrunethereum.com/challenge/dice-game">
           🎲 Dice Game
         </Button.Link>,
-        <Button value="challenge-2">← Back</Button>,
         <Button value="challenge-4">Next →</Button>,
       ],
     })
@@ -102,7 +99,6 @@ app.frame('/', (c) => {
         <Button.Link href="https://speedrunethereum.com/challenge/token-vendor">
           🏵 Token Vendor
         </Button.Link>,
-        <Button value="challenge-1">← Back</Button>,
         <Button value="challenge-3">Next →</Button>,
       ],
     })
@@ -115,7 +111,6 @@ app.frame('/', (c) => {
         <Button.Link href="https://speedrunethereum.com/challenge/decentralized-staking">
           🥩 Staking App
         </Button.Link>,
-        <Button value="challenge-0">← Back</Button>,
         <Button value="challenge-2">Next →</Button>,
       ],
     })
