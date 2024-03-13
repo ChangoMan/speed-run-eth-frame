@@ -46,11 +46,11 @@ app.frame('/', (c) => {
       image: `${SITE_URL}/img/buidlguidl.jpg`,
       intents: [
         <Button.Link href="https://speedrunethereum.com/">
-          SpeedRun
+          🏃 SpeedRun
         </Button.Link>,
-        <Button.Link href="https://buidlguidl.com/">BuidlGuidl</Button.Link>,
+        <Button.Link href="https://buidlguidl.com/">🏰 BuidlGuidl</Button.Link>,
         <Button.Link href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA">
-          Telegram
+          💬 Telegram
         </Button.Link>,
       ],
     })
