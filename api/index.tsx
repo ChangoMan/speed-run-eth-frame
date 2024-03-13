@@ -11,7 +11,7 @@ export const app = new Frog({
   browserLocation: 'https://speedrunethereum.com/',
 })
 
-const SITE_URL = 'http://localhost:5173'
+const SITE_URL = 'https://speedrun-eth-frame.vercel.app'
 
 app.frame('/', (c) => {
   const { buttonValue } = c
