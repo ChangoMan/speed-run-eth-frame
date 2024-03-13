@@ -6,7 +6,7 @@ import { handle } from 'frog/vercel'
 // Uncomment to use Edge Runtime.
 // export const runtime = 'edge'
 
-export const app = new Frog({
+const app = new Frog({
   basePath: '/api',
   browserLocation: 'https://speedrunethereum.com/',
 })
