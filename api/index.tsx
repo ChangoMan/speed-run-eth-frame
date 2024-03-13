@@ -8,6 +8,7 @@ export const config = {
 
 export const app = new Frog({
   basePath: '/api',
+  browserLocation: 'https://speedrunethereum.com/',
 })
 
 const SITE_URL = 'http://localhost:5173'
